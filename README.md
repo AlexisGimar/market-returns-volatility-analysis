@@ -60,28 +60,28 @@ The second part compares the four selected assets using:
 
 Daily simple returns are calculated as
 
-\[
+$$
 R_t = \frac{P_t}{P_{t-1}} - 1
-\]
+$$
 
 Annualized arithmetic return is estimated using
 
-\[
+$$
 \mu_{\text{annual}} = 252 \cdot \bar{R}_{\text{daily}}
-\]
+$$
 
 and annualized volatility as
 
-\[
+$$
 \sigma_{\text{annual}} =
 \sqrt{252}\,\sigma_{\text{daily}}
-\]
+$$
 
 Maximum drawdown measures the largest observed decline from a previous price peak:
 
-\[
+$$
 D_t = 1-\frac{P_t}{\max_{s\leq t} P_s}
-\]
+$$
 
 The Sharpe ratio is calculated as
 
@@ -94,15 +94,15 @@ using a constant annual risk-free rate of **4%** as a simplifying assumption.
 
 For historical Value at Risk, daily losses are defined as
 
-\[
+$$
 L_t=-R_t
-\]
+$$
 
 and the 95% historical VaR is estimated from the empirical loss distribution:
 
-\[
+$$
 VaR_{0.95}=F_L^{-1}(0.95)
-\]
+$$
 
 ---
 
