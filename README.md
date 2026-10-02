@@ -85,10 +85,10 @@ D_t = 1-\frac{P_t}{\max_{s\leq t} P_s}
 
 The Sharpe ratio is calculated as
 
-\[
+$$
 S =
 \frac{E[R]-R_f}{\sigma}
-\]
+$$
 
 using a constant annual risk-free rate of **4%** as a simplifying assumption.
 
